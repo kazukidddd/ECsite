@@ -105,6 +105,7 @@
 				</tr>
 			</s:form>
 			<div>
+			<!-- 横でボタン表示させたい為javascript使う -->
 				<s:property value="session.login_user_id" />さんこんちは
 				<p>前画面に戻る場合は<a href='<s:url action="GoHomeAction" />'>こちら</a></p>
 				<p>マイページは<a href='<s:url action="MyPageAction" />'>こちら</a></p>
